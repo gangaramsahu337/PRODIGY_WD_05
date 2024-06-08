@@ -1,0 +1,240 @@
+
+body {
+    background: linear-gradient(to bottom, #87CEEB, white);
+    color: white;
+    transition: background 0.5s ease;
+}
+
+/* clear-day */
+body.clear-day {
+    background: url('Images/backPic/clear/kid-8788962_1920.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* clear-night */
+body.clear-night {
+    color: white;
+    background: url('Images/backPic/clear/oskar-kadaksoo-5qUPAej1j78-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* partial-cloudy-day */
+body.partly-cloudy-day {
+    color: white;
+    background: url('Images/backPic/cloudy/partial/drew-hays-_Vq7JTlS4XE-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* partly not partial */
+/* partly-cloudy-night */
+body.partly-cloudy-night {
+    color: white;
+    background: url('Images/backPic/cloudy/partial/newpic.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+/* cloudy-day */
+body.cloudy-day {
+    color: white;
+    background: url('Images/backPic/cloudy/just-cloud/pexels-alex-andrews-271121-833192.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* cloudy-night */
+body.cloudy-night {
+    color: white;
+    background: url('Images/backPic/cloudy/just-cloud/pure-julia-NChuVFzZeNk-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*broken-clouds-day*/
+body.broken-clouds-day {
+    color: white;
+    background: url('Images/backPic/cloudy/broken/osman-rana-GXEZuWo5m4I-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* broken-clounds-night */
+body.broken-clouds-night {
+    color: white;
+    background: url('Images/backPic/cloudy/broken/pan-xiaozhen-OKlo0r3gBcQ-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* rainy-day */
+body.rainy-day {
+    color: white;
+    background: url('Images/backPic//rainy/rain/cat-974_512.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* rainy-night */
+body.rainy-night {
+    color: white;
+    background: url('Images/backPic/rainy/rain/soliman-cifuentes-g1mKAmmn9pU-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* shower-rain-day */
+body.shower-rain-day {
+    color: white;
+    background: url('Images/backPic/rainy/shower/heavy-rain-4864257_1920.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* shower-rain-night */
+body.shower-rain-night {
+    color: white;
+    background: url('Images/backPic/rainy/shower/norbert-toth-_zUAcIvs-ME-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* thunder-day */
+body.thunder-day {
+    color: white;
+    background: url('Images/backPic/thunder/best/pexels-greg-1251451-2418664.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* thunder-night */
+body.thunder-night {
+    color: white;
+    background: url('Images/backPic/thunder/best/florian-olivo-abtAQYrdRlo-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* misty-day */
+body.misty-day {
+    color: white;
+    background: url('Images/backPic/misty/best/hilly-2572197_1920.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* misty-night */
+body.misty-night {
+    color: white;
+    background: url('Images/backPic/misty/best/danila-perevoshchikov-y4EkDeDEoSE-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* snowy-day */
+body.snowy-day {
+    color: white;
+    background: url('Images/backPic/snowy/best/casey-horner-ccnfb-cc-30-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* snowy-night */
+body.snowy-night {
+    color: white;
+    background: url('Images/backPic/snowy/best/annie-niemaszyk-_SnPaOUxO2k-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* dust and sand */
+body.dust {
+    color: white;
+    background: url('Images/backPic/dust&sand/Sandstorm_MiddleEast.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* tornado */
+body.tornado {
+    color: white;
+    background: url('Images/backPic/Tornado/nikolas-noonan-n_3kdpSkrJo-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#weather-suggestions {
+    list-style-type: none;
+    padding: 0;
+}
+
+#weather-suggestions li {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 32px;
+}
+
+#mysug {
+    background: rgba(0,0, 0, 0.3);
+    color: rgb(255, 215, 0);
+    text-align: center;
+}
+
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.navbar-brand,
+.nav-link,
+.btn {
+    color: rgb(29, 26, 26) !important;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+    /* Change to desired hover color */
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: black;
+    /* Consistent text color */
+}
+
+.cards {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-style:solid;
+}
+
+.footer {
+    background-color: #343a40;
+    /* Dark background for the footer */
+    color: white;
+    /* White text for contrast */
+}
+
+@media (max-width: 768px) {
+    h1.display-3 {
+        font-size: 2rem;
+    }
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    color: white;
+    background-color: #007bff;
+    /* Change this color as per your theme */
+    border-radius: 31%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a i {
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    background-color: #0056b3;
+    /* Darker shade for hover effect */
+}
