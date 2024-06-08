@@ -92,10 +92,13 @@ async function getWeather(city) {
 function updateWeatherData(data) {
   CityName.innerHTML = `${data.name}`;
   temp.innerHTML = `${data.main.temp}°C`;
+  temp2.innerHTML = `${data.main.temp}°C`; //added
   temp_min.innerHTML = `${data.main.temp_min}°C`;
   temp_max.innerHTML = `${data.main.temp_max}°C`;
   humidity.innerHTML = `${data.main.humidity}%`;
+  humidity2.innerHTML = `${data.main.humidity}%`; //added
   wind_speed.innerHTML = `${data.wind.speed} km/h`;
+  wind_speed2.innerHTML = `${data.wind.speed} km/h`; //added
   wind_deg.innerHTML = `${data.wind.deg}°`;
   sunrise.innerHTML = `${new Date(
     data.sys.sunrise * 1000
@@ -113,23 +116,23 @@ function updateWeatherData(data) {
   updateWeatherSuggestions(data.weather[0].icon);
 }
 
-async function fetchAdditionalWeatherData(location) {
-  try {
-    const response = await fetch(
-      `${plainUrl}&${
-        typeof location === "string"
-          ? `q=${location}`
-          : `lon=${location[0]}&lat=${location[1]}`
-      }&appid=${apiKey}`
-    );
-    const data = await response.json();
-    temp2.innerHTML = `${data.main.temp}°C`;
-    humidity2.innerHTML = `${data.main.humidity}%`;
-    wind_speed2.innerHTML = `${data.wind.speed} km/h`;
-  } catch (error) {
-    console.error("Error fetching additional weather data: ", error);
-  }
-}
+// async function fetchAdditionalWeatherData(location) {
+//   try {
+//     const response = await fetch(
+//       `${plainUrl}&${
+//         typeof location === "string"
+//           ? `q=${location}`
+//           : `lon=${location[0]}&lat=${location[1]}`
+//       }&appid=${apiKey}`
+//     );
+//     const data = await response.json();
+//     temp2.innerHTML = `${data.main.temp}°C`;
+//     humidity2.innerHTML = `${data.main.humidity}%`;
+//     wind_speed2.innerHTML = `${data.wind.speed} km/h`;
+//   } catch (error) {
+//     console.error("Error fetching additional weather data: ", error);
+//   }
+// }
 
 const weatherIcons = {
   "01d": "\u2600", // Sunny
