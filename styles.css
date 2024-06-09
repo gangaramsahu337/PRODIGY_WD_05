@@ -51,14 +51,14 @@ body.cloudy-night {
 /*broken-clouds-day*/
 body.broken-clouds-day {
     color: white;
-    background: url('Images/backPic/cloudy/broken/osman-rana-GXEZuWo5m4I-unsplash.jpg') no-repeat center center fixed;
+    background: url('Images/backPic/cloudy/broken/barry-simon-4C6Rp23RjnE-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
 /* broken-clounds-night */
 body.broken-clouds-night {
     color: white;
-    background: url('Images/backPic/cloudy/broken/pan-xiaozhen-OKlo0r3gBcQ-unsplash.jpg') no-repeat center center fixed;
+    background: url('Images/backPic/cloudy/broken/ryan-loughlin-Ta9_HNeuQkU-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
