@@ -266,7 +266,7 @@ const weatherSuggestions = {
     "Take a walk 🚶‍♀️",
     "Photography 📸",
     "Jog in the park 🏃‍♂️",
-    "Wear sunglasses 😎",
+    "Visit a botanical garden 🌸🌿",
   ], // Partly cloudy day
   "02n": [
     "Relax outdoors 🌌",
@@ -301,26 +301,26 @@ const weatherSuggestions = {
   "09d": [
     "Read a book 📖",
     "Watch a movie 🎬",
-    "Drink a cup of tea ☕",
-    "Wear a raincoat 🧥",
+    "Have a cup of tea ☕",
+    "Wear a raincoat (if outdoor)🧥",
   ], // Shower rain
   "09n": [
     "Watch a movie 🎬",
     "Listen to music 🎧",
     "Enjoy a warm drink ☕",
-    "Wear a raincoat 🧥",
+    "Wear a raincoat (if outdoor)🧥",
   ], // Shower rain
   "10d": [
+    "Carry an umbrella ☔",
     "Visit a café ☕",
     "Watch a movie 🎬",
     "Indoor activities 🎨",
-    "Carry an umbrella ☔",
   ], // Rain
   "10n": [
     "Stay indoors 🏠",
     "Read a book 📖",
     "Listen to the rain 🌧️",
-    "Wear a raincoat 🧥",
+    "Wear a raincoat (if outdoor) 🧥",
   ], // Rain
   "11d": [
     "Stay indoors 🏠",
